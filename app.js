@@ -1,5 +1,7 @@
 $(function() {
 	var title = $('h1');
-	debugger
 	title.fadeOut();
+	var textAdded = '<p>will it dissapear?</p>';
+	$('.test').append(textAdded);
 	});
+
