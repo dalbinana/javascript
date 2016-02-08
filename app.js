@@ -3,7 +3,7 @@ $(function() {
 	title.fadeOut();
 	var textAdded = '<p>will it dissapear?</p>';
 	$('.test').append(textAdded);
-	
+
 	// for (i=0; i=50; i++){
 	// 	if (i%2==0) {
 	// 		$( '.cell:even').addClass("active")
@@ -29,6 +29,7 @@ $(function() {
 	// 	$( this ).
 	// })
 	// function()
+	
   	
 });
 
