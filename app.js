@@ -29,7 +29,8 @@ $(function() {
 	// 	$( this ).
 	// })
 	// function()
-	
-  	
+	$('button').on('click', function () { 
+		$('#general').fadeOut();
+		}) 	
 });
 
