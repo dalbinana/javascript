@@ -36,7 +36,7 @@ $(function() {
 		$( this.parent() ).remove();
 		});
 
-	$('.button').before("<p id='shownphrase'>"+randomi()+"</p>");
+	$('#show').before("#show");
 	$('.button').on('click', function () {
 		$('#shownphrase').remove();
 		$('.button').before("<p id='shownphrase'>"+randomi()+"</p>");
