@@ -1,0 +1,29 @@
+body{
+    background-color: #525252;
+}
+.centered-form{
+	margin-top: 60px;
+}
+
+.centered-form .panel{
+	background: rgba(255, 255, 255, 0.8);
+	box-shadow: #81b71a 20px 20px 20px;
+}
+.panel-heading, .btn{
+	background-color: #81b71a !important;
+
+}
+img {
+    
+    max-width:230px;
+    max-height:95px;
+    width: auto;
+    height: auto;
+}
+ul,li{
+	list-style-type:none;
+	cursor: pointer;
+}
+.list_artists {
+	margin-left: 40px;
+}
